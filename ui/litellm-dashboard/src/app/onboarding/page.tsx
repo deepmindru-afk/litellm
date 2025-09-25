@@ -133,7 +133,7 @@ export default function Onboarding() {
 
               <Col>
                 <Button variant="primary" className="mb-2">
-                  <a href="https://forms.gle/W3U4PZpJGFHWtHyA9" target="_blank">
+                  <a href="https://www.portalos.ru" target="_blank">
                     Get Free Trial
                   </a>
                 </Button>
