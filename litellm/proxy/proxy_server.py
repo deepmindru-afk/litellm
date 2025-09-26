@@ -9417,7 +9417,7 @@ async def get_model_cost_map_reload_status(
 
 @router.get("/", dependencies=[Depends(user_api_key_auth)])
 async def home(request: Request):
-    return "LiteLLM: RUNNING"
+    return "Portal LLM Router: RUNNING"
 
 
 @router.get("/routes", dependencies=[Depends(user_api_key_auth)])
