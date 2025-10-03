@@ -1061,6 +1061,7 @@ from .llms.azure_ai.rerank.transformation import AzureAIRerankConfig
 from .llms.infinity.rerank.transformation import InfinityRerankConfig
 from .llms.jina_ai.rerank.transformation import JinaAIRerankConfig
 from .llms.deepinfra.rerank.transformation import DeepinfraRerankConfig
+from .llms.nvidia_nim.rerank.transformation import NvidiaNimRerankConfig
 from .llms.clarifai.chat.transformation import ClarifaiConfig
 from .llms.ai21.chat.transformation import AI21ChatConfig, AI21ChatConfig as AI21Config
 from .llms.meta_llama.chat.transformation import LlamaAPIConfig
@@ -1161,6 +1162,7 @@ from .llms.bedrock.embed.amazon_titan_v2_transformation import (
 )
 from .llms.cohere.chat.transformation import CohereChatConfig
 from .llms.bedrock.embed.cohere_transformation import BedrockCohereEmbeddingConfig
+from .llms.bedrock.embed.twelvelabs_marengo_transformation import TwelveLabsMarengoEmbeddingConfig
 from .llms.openai.openai import OpenAIConfig, MistralEmbeddingConfig
 from .llms.openai.image_variations.transformation import OpenAIImageVariationConfig
 from .llms.deepinfra.chat.transformation import DeepInfraConfig
